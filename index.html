@@ -1,42 +1,68 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>CV Said Saha</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f4f6f8;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .box {
-      background: white;
-      padding: 40px;
-      border-radius: 14px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-      text-align: center;
-    }
-    a {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 22px;
-      background: #0d6efd;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>CV Said Saha</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255,255,255,0.05);
+    padding: 50px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+p {
+    color: #ddd;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 15px 30px;
+    background: #00c6ff;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+</style>
+
 </head>
+
 <body>
-  <div class="box">
+
+<div class="container">
     <h1>Said Saha</h1>
-    <p>Accès direct à mon CV</p>
-    <a href="cv.pdf" target="_blank">Voir mon CV</a>
-  </div>
+    <p>Technicien Systèmes & Réseaux (TSSR)</p>
+
+    <a href="cv.pdf" target="_blank" class="btn">
+        📄 Accéder à mon CV
+    </a>
+</div>
+
 </body>
 </html>
