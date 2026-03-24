@@ -25,6 +25,15 @@ body {
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
+.photo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid white;
+}
+
 h1 {
     margin-bottom: 10px;
     font-size: 32px;
@@ -37,7 +46,6 @@ p {
 
 .btn {
     padding: 15px 30px;
-    background: #00c6ff;
     background: linear-gradient(90deg, #00c6ff, #0072ff);
     color: white;
     text-decoration: none;
@@ -56,12 +64,21 @@ p {
 <body>
 
 <div class="container">
+
+    <!-- PHOTO -->
+    <img src="photo.jpg" alt="Photo Said" class="photo">
+
+    <!-- NOM -->
     <h1>Said Saha</h1>
+
+    <!-- TITRE -->
     <p>Technicien Systèmes & Réseaux (TSSR)</p>
 
+    <!-- BOUTON CV -->
     <a href="cv.pdf" target="_blank" class="btn">
         📄 Accéder à mon CV
     </a>
+
 </div>
 
 </body>
